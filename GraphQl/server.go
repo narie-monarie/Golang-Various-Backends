@@ -2,12 +2,13 @@ package main
 
 import (
 	"log"
-	"narie-monarie/graph"
 	"net/http"
 	"os"
 
 	"github.com/99designs/gqlgen/graphql/handler"
 	"github.com/99designs/gqlgen/graphql/playground"
+
+	"narie-monarie/graph"
 )
 
 const defaultPort = "8080"

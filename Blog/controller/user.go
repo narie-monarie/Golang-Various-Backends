@@ -1,10 +1,10 @@
 package controller
 
 import (
+	"github.com/gin-gonic/gin"
+
 	"narie/monarie-project/config"
 	"narie/monarie-project/models"
-
-	"github.com/gin-gonic/gin"
 )
 
 func GetUsers(c *gin.Context) {
